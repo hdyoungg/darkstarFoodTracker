@@ -1,36 +1,43 @@
 var array = [{
-  id: 1,
+  id: 0,
   name: 'richard',
   hobby: function() {
     console.log('hobby: lifting weights');
   }
 },{
-  id: 2,
+  id: 1,
   name: 'ben',
   hobby: function() {
     console.log('hobby: gaming');
   }
 },{
-  id: 3,
+  id: 2,
   name: 'samip',
   hobby: function() {
     console.log('hobby: gaming');
   }
 },{
-  id: 4,
+  id: 3,
   name: 'shelby',
   hobby: function() {
     console.log('hobby: gaming');
   }
 },{
-  id: 5,
+  id: 4,
   name: 'heaven',
   hobby: function() {
     console.log('hobby: gaming');
   }
 }];
 
-function alertFunction() {
+function submit() {
+  var name = document.getElementById("name_input").value;
+  var hobby = document.getElementById("hobby_input").value;
+
+  array.push({ id: array.length++, name: name, hobby: hobby });
+}
+
+function display() {
 
   array.forEach(function(person) {
     console.log(person.name);
