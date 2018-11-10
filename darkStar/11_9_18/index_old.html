@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <script src="app.js"></script>
+  </head>
+  <body>
+
+    <center>
+
+      <div>
+        <h1>Students</h1>
+      </div>
+
+      <label for="name_input">Name:</label>
+      <input id="name_input" type="text" />
+
+      <br />
+      <br />
+
+      <label for="email_input">Email:</label>
+      <input id="email_input" type="text" />
+
+      <br />
+      <br />
+
+      <button onclick="addStudent()">Submit</button>
+
+      <br />
+      <br />
+
+      <button onclick="addAllStudents()">Display</button>
+
+      <br />
+      <br />
+
+      <table id="student-table">
+        <thead>
+          <th>Name</th>
+          <th>Email</th>
+        </thead>
+      </table>
+
+
+    </center>
+
+  </body>
+</html>
