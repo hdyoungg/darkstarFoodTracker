@@ -1,21 +1,17 @@
 var studentArray = [{
   id: 0,
-  name: 'ben',
-  email: 'ben@gmail.com'
-},{
-  id: 1,
   name: 'samip',
   email: 'samip@gmail.com'
 },{
-  id: 2,
+  id: 1,
   name: 'shelby',
   email: 'shelby@gmail.com'
 },{
-  id: 3,
+  id: 2,
   name: 'heaven',
   email: 'heaven@gmail.com'
 },{
-  id: 4,
+  id: 3,
   name: 'levi',
   email: 'levi@gmail.com'
 }];
