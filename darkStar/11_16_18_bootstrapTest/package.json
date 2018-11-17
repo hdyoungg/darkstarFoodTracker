@@ -1,0 +1,18 @@
+{
+  "name": "11_16_18_bootstraptest",
+  "version": "1.0.0",
+  "description": "npm test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "darkStarFoodTracker"
+  },
+  "author": "darkstar",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.6.3"
+  }
+}
